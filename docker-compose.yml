@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  prerender:
+    image: cykloheksan/prerender-docker:latest
+    container_name: prerender
+    ports:
+      - "3000:3000"
+    expose:
+      - 3000
