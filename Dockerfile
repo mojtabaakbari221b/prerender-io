@@ -1,4 +1,4 @@
-FROM node:8-stretch
+FROM node:18
 
 RUN mkdir /var/prerender
 WORKDIR /var/prerender
